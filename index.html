@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Timer</h1>
+		<form id="timer-form">
+			<label for="hours">Hours:</label>
+			<input type="number" id="hours" name="hours" min="0">
+			<label for="minutes">Minutes:</label>
+			<input type="number" id="minutes" name="minutes" min="0" max="59">
+			<label for="seconds">Seconds:</label>
+			<input type="number" id="seconds" name="seconds" min="0" max="59">
+			<button type="submit">Start</button>
+		</form>
+        
+		<h1>Liaqat Ali</h1>
+		<h1>11842</h1>
+		<div id="timer"></div>
+	</div>
+
+	<audio id="alarm">
+		<source src="alarm.mp3" type="audio/mpeg">
+	</audio>
+
+	<script src="script.js"></script>
+</body>
+</html>
